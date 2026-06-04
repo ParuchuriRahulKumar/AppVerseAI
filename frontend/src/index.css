@@ -1,0 +1,53 @@
+/* NAV BUTTONS */
+
+.nav-btn {
+  text-decoration: none;
+  color: white;
+  background: rgba(255,255,255,0.15);
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.nav-btn:hover {
+  background: white;
+  color: #6d28d9;
+  transform: translateY(-2px);
+}
+
+/* DARK MODE BUTTON */
+
+.theme-btn {
+  background: #facc15;
+  color: black;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.theme-btn:hover {
+  transform: scale(1.05);
+}
+
+/* LOGOUT BUTTON */
+
+.logout-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+  transform: scale(1.05);
+}
